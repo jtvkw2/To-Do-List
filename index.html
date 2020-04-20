@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+
+  <body>
+    <div id="outerDiv">
+      <div id="headerDiv" class="header">
+        <h2>The To-Do List</h2>
+        <input type="text" id="newInput" placeholder="Title...">
+        <span onclick="addElement()" class="addBtn">Add</span>
+      </div>
+      <ul id="ulDiv">
+        <li>Go to the Gym</li>
+        <li class="checked">Pay bills</li>
+        <li>Go to Bookstore</li>
+      </ul>
+    </div>
+  </body>
+</html>

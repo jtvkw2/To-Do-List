@@ -1,0 +1,17 @@
+body{
+  background-color: #FFFFD1;
+}
+
+#outerDiv{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #AFF8DB;
+  padding: 50px;
+  border-radius: 5%;
+}
+
+#headerDiv{
+
+}
