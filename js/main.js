@@ -6,12 +6,13 @@ function addElement(){
   var button = document.createElement("button");
   var checkmark = document.createElement("button");
   checkmark.setAttribute("id",idNum.toString());
-  checkmark.setAttribute("class", "fa fa-check");
+  checkmark.setAttribute("class", "fa fa-check buttonClick");
   checkmark.setAttribute("onclick", "checkElement(this.id)");
   button.setAttribute("id",idNum.toString());
-  button.setAttribute("class","fa fa-trash");
+  button.setAttribute("class","fa fa-trash buttonClick");
   button.setAttribute("onclick", "removeElement(this.id)");
   li.setAttribute("id",idNum.toString());
+  li.setAttribute("class","entyList");
   li.appendChild(document.createTextNode(item.value));
   li.appendChild(button);
   li.appendChild(checkmark);
