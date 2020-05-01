@@ -16,8 +16,20 @@ button{
   border-radius: 5%;
 }
 
-#headerDiv{
+.addBtn{
+  text-decoration: none;
+  background-color: #6bf9df;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  border-radius: 8px;
+}
 
+.addBtn:hover{
+  background-color: #46a594;
 }
 
 .entyList{
