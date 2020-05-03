@@ -17,7 +17,9 @@ function addElement(){
   li.appendChild(button);
   li.appendChild(checkmark);
   ul.appendChild(li);
+  item.value = "";
   idNum++;
+
 }
 
 function removeElement(id){

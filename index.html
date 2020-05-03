@@ -16,11 +16,18 @@
     <div id="outerDiv">
       <div id="headerDiv" class="header">
         <h2>The To-Do List</h2>
-        <input type="text" id="newInput" placeholder="To-Do...">
-        <span onclick="addElement()" class="addBtn">Add</span>
+        <input type="text" id="newInput" placeholder="To-Do..." value = "">
+        <span id ="myBtn" onclick="addElement()" class="addBtn fa fa-plus-circle"></span>
       </div>
       <ul id="ulDiv">
       </ul>
+      <script>
+      $("#newInput").keypress(function(event) {
+          if (event.keyCode === 13) {
+            addElement();
+          }
+      });
+      </script>
     </div>
   </body>
 </html>
